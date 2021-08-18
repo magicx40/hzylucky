@@ -1,0 +1,27 @@
+.layout_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    box-shadow: 0 -1px 2px 1px #b0a0a0;
+    flex: none;
+    transition: all .2s linear;
+    background-color: #fff;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    left: 0;
+    h1 {
+        font-size: 23px;
+        margin-left: 45px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    nav {
+        margin-right: 45px;
+        font-size: 13px;
+        .dashboard {
+            margin-left: 8px;
+        }
+    }
+}

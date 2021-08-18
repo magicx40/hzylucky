@@ -1,0 +1,12 @@
+.app_container {
+    height: 100%;
+    .home_container {
+        position: relative;
+        height: 100%;
+        padding-top: 45px;
+        .container_main {
+            height: 100%;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.article_1 {
+    h1 {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 28px;
+        text-align: center;
+        span {
+            font-size: 12px;
+            font-weight: normal;
+            line-height: 22px;
+            color: rgb(101, 100, 95);
+            margin-left: 8px;
+        }
+    }
+    p.author, p.note{
+        position: relative;
+        left: 78px;
+        font-size: 12px;
+        line-height: 22px;
+        color: rgb(101, 100, 95);
+        text-align: center;
+    }
+    section > p {
+        font-size: 14px;
+        color: #0F0F0F;
+        line-height: 22px;
+        text-indent: 2em;
+        margin-bottom: 1em;
+    }
+}
