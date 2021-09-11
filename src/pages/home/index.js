@@ -5,7 +5,7 @@ import Articles from "../articles";
 import { Switch } from "react-router-dom";
 import HeaderLayout from '../../layout/header'
 import ArticleList from '../../components/articleList/index'
-
+import { Counter } from '../../components/Counter'
 export default class Home extends React.Component {
     render() {
         let { match } = this.props;
@@ -19,6 +19,7 @@ export default class Home extends React.Component {
                     {/* <Route path={match.url + '/art1'} component={Article1} /> */}
                     {/* <Route path={match.url + '/art2'} component={Article2} /> */}
                 </Switch>
+                {/* <Counter />  */}
             </div>
         )
     }

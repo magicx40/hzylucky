@@ -68,3 +68,38 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### ESlint Notes
+```javascript
+// 1. 在整个文件中取消eslint检查：
+/* eslint-disable */
+alert(‘foo’);
+
+// 2. 在整个文件中禁用某一项eslint规则的检查：
+/* eslint-disable no-alert */
+alert(‘foo’);
+
+// 3. 在整个文件中禁用多项eslint规则的检查：
+/* eslint-disable no-alert, no-console */
+alert(‘foo’);
+console.log(‘bar’);
+
+// 4. 针对某一行禁用eslint检查：
+alert(‘foo’); // eslint-disable-line
+
+// eslint-disable-next-line
+alert(‘foo’);
+
+// 5. 针对某一行的某一具体规则禁用eslint检查：
+alert(‘foo’); // eslint-disable-line no-alert
+
+// eslint-disable-next-line no-alert
+alert(‘foo’);
+
+// 6. 针对某一行禁用多项具体规则的检查：
+
+alert(‘foo’); // eslint-disable-line no-alert, quotes, semi
+
+// eslint-disable-next-line no-alert, quotes, semi
+alert(‘foo’);
+```

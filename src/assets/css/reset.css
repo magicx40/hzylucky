@@ -20,7 +20,8 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: "PingFang SC",Arial,"Microsoft YaHei",sans-serif;
+	font-weight: 400;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -57,7 +58,9 @@ a {
 html,body {
 	height: 100%;
 }
-
+canvas {
+	outline: none;
+}
 #root {
 	height: 100%;
 }
