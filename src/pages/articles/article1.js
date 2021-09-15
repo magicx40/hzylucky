@@ -1,10 +1,10 @@
 import React from "react";
-import './article1.scss';
+import './article.scss';
 
 export default class Article1 extends React.Component {
     render() {
         return (
-            <article className="article_1">
+            <article className="article_common">
                 <header>
                     <h1>过秦论<span>上篇</span></h1>
                     <p className="author">【汉】贾谊</p>

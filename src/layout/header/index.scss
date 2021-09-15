@@ -25,4 +25,10 @@
             margin-left: 8px;
         }
     }
+
+    @media screen and (max-width: 650px) {
+        .slogan {
+            display: none;
+        }
+    }
 }

@@ -22,6 +22,9 @@ export default class ArticleList extends React.Component {
             <div className={['article_ls', hiddenBtnShow ? 'hidden' : null].join(' ')}>
                 <ul>
                     <li><NavLink to="/home/art1">过秦论</NavLink></li>
+                    <li><NavLink to="/home/art2">出师表</NavLink></li>
+                    <li><NavLink to="/home/gettysburg_address">葛底斯堡演说</NavLink></li>
+                    <li><NavLink to="/home/pericles_funeral_oration">伯里克利的葬礼演说</NavLink></li>
                 </ul>
                 <div className="hidden_btn iconfont icon-hzhedie" onClick={this.handleClick}></div>
             </div>

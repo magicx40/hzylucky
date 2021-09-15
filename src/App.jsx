@@ -13,7 +13,7 @@ export default class App extends React.Component {
                         <Switch>
                             <Redirect exact from="/" to="/home" />
                             <Route path="/home" component={Home} />
-                            <Route exact path="/dashboard" component={DashBoard} />
+                            {/* <Route exact path="/dashboard" component={DashBoard} /> */}
                         </Switch>
                     </div>
                 </div>

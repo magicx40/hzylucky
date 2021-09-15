@@ -1,4 +1,4 @@
-.article_1 {
+.article_common {
     h1 {
         font-size: 20px;
         font-weight: bold;
@@ -27,5 +27,8 @@
         text-indent: 2em;
         margin-bottom: 1em;
         text-align: left;
+        &.english_article {
+            font-family: 'Times New Roman', Times, serif;
+        }
     }
 }
