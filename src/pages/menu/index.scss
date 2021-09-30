@@ -1,0 +1,25 @@
+.menu_page {
+    max-width: 1000px;
+    min-height: 100%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 15px;
+    .article_ls {
+        p.menu_title {
+            font-size: 18px;
+            line-height: 24px;
+            color: #0F0F0F;
+            margin-bottom: 10px;
+        }
+        ul > li {
+            text-align: left;
+            a {
+                font-size: 14px;
+                color: #0F0F0F;
+                &:hover,&:active {
+                    color: rgb(196, 110, 110);
+                }
+            }
+        }
+    }
+}

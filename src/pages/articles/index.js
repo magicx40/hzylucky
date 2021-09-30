@@ -8,7 +8,6 @@ export default class Articles extends React.Component {
     render() {
         let { match } = this.props;
         let MyComponent = Pericles;
-        console.log("ooo")
         switch (match.params.art) {
             case 'art1':
                 MyComponent = Article1
