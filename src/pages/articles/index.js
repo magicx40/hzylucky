@@ -1,6 +1,7 @@
 import React from "react";
 import Article1 from "./article1";
 import Article2 from "./article2";
+import Article3 from "./article3";
 import GettysburgAddress from "./gettysburg_address";
 import Pericles from "./pericles";
 
@@ -14,6 +15,9 @@ export default class Articles extends React.Component {
                 break
             case 'art2':
                 MyComponent = Article2
+                break
+            case 'art3':
+                MyComponent = Article3
                 break
             case 'gettysburg_address':
                 MyComponent = GettysburgAddress
