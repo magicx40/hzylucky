@@ -15,7 +15,7 @@ export default class Home extends React.Component {
                     <Route path={match.url + '/:art'} component={Articles} />
                 </Switch>
                 <p className="beian">
-                    <a href="https://beian.miit.gov.cn/#/Integrated/index">京ICP备2021008749号-1</a>
+                    <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">京ICP备2021008749号-1</a>
                 </p>
             </div>
         )

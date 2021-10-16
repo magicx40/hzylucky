@@ -18,7 +18,7 @@ export default class Menu extends Component {
                         <li><NavLink to="/home/pericles_funeral_oration">伯里克利的葬礼演说</NavLink></li>
                     </ul>
                     <p className="beian">
-                        <a href="https://beian.miit.gov.cn/#/Integrated/index">京ICP备2021008749号-1</a>
+                        <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">京ICP备2021008749号-1</a>
                     </p>
                 </div>
             </div>
