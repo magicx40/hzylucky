@@ -4,6 +4,7 @@ import Article2 from "./article2";
 import Article3 from "./article3";
 import GettysburgAddress from "./gettysburg_address";
 import Pericles from "./pericles";
+import ShiJi from "./shiji";
 
 export default class Articles extends React.Component {
     render() {
@@ -24,6 +25,9 @@ export default class Articles extends React.Component {
                 break
             case 'pericles_funeral_oration':
                 MyComponent = Pericles
+                break
+            case 'shiji':
+                MyComponent = ShiJi
                 break
             default:
                 MyComponent = () => (<div>404</div>);
